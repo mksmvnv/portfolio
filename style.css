@@ -1,0 +1,104 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT */
+
+:root {
+    --grey-raven: rgb(44, 44, 44);
+    --mountain-surface: rgb(124, 124, 124);
+    --soft-pillow: rgb(236, 236, 236);
+}
+
+/* GENERAL */
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
+    background-color: var(--soft-pillow);
+}
+
+a {
+    color: var(--grey-raven);
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+/* HEADER */
+
+header {
+    padding: 2rem;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-text p {
+    font-size: 1.8rem;
+}
+
+nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--mountain-surface);
+}
+
+/* MAIN */
+
+section {
+    padding: 2rem 20rem;
+}
+
+/* ABOUT */
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-socials img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
