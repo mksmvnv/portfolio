@@ -9,9 +9,9 @@
 /* ROOT */
 
 :root {
-    --grey-raven: rgb(44, 44, 44);
-    --mountain-surface: rgb(124, 124, 124);
-    --soft-pillow: rgb(236, 236, 236);
+    --grey-raven: #2c2c2c;
+    --mountain-surface: #7c7c7c;
+    --soft-pillow: #ececec;
 }
 
 /* GENERAL */
