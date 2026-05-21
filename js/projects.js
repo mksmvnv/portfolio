@@ -1,5 +1,5 @@
 const projects = [
-    "probably soon"
+    "coming soon"
 ];
 
 function renderProjects(projectsArray) {
